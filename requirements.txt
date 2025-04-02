@@ -1,7 +1,7 @@
 Flask==2.2.5
 Flask-Cors==3.0.10
 pymongo==4.6.1
-werkzeug==2.2.3  # or use werkzeug==3.1.3 if needed
+werkzeug==2.2.3  # or werkzeug==3.1.3
 PyJWT==2.8.0
 torch==2.2.0
 torchvision==0.17.0
@@ -12,3 +12,4 @@ requests==2.31.0
 deep-translator==1.11.4
 langdetect==1.0.9
 ultralytics==8.1.28
+gunicorn==20.1.1  # Add Gunicorn here
